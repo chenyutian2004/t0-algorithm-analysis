@@ -1,0 +1,66 @@
+# Python 缓存与测试/检查工具缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# 本地环境变量与密钥；仅允许提交无敏感值的示例
+.env
+.env.*
+!.env.example
+
+# SQLite 数据库及 WAL 运行文件
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# 原始数据默认不进入 Git；只放行说明和脱敏样例
+/data/*
+!/data/README.md
+!/data/sample/
+!/data/sample/**
+
+# 日志、分析报告与输出
+/log/
+/report/
+/output/
+/*_report/
+
+# 模型与序列化产物
+/model/
+*.joblib
+*.pkl
+*.pickle
+
+# StockDB 默认视为私有本地依赖；只放行接入说明
+/stockdb/*
+!/stockdb/README.md
+
+# 平台相关二进制
+*.pyd
+*.dll
+*.so
+*.dylib
+
+# 编辑器与操作系统文件
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时与备份文件
+*.tmp
+*.temp
+*.bak
+*.swp
+*~

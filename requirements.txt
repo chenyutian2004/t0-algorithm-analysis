@@ -1,0 +1,5 @@
+# 公开 PyPI 运行依赖。
+# stock_sdk/stockdb.pyd 是私有依赖，不能通过本文件安装；见 stockdb/README.md。
+numpy>=1.24,<3
+pandas>=2.0,<3
+requests>=2.31,<3
