@@ -82,9 +82,10 @@ Codex：
 python -m pip install -r requirements.txt
 ```
 
-此外，`market_environment.py` 依赖 StockDB 提供的私有模块 `stock_sdk`。该模块不能通过
-PyPI 安装，需要按 `stockdb/README.md` 的说明，将 `stock_sdk.py` 和与当前
-Python 版本匹配的 `stockdb.pyd` 配置到 Python 可导入路径中。
+此外，`market_environment.py` 依赖开源项目
+[hello245m/free-stockdb](https://github.com/hello245m/free-stockdb) 提供的
+本地行情服务和 `stock_sdk`。它不是本项目的 PyPI 依赖，需要按
+`stockdb/README.md` 完成上游数据同步、服务启动和 Python SDK 配置。
 
 ## 当前数据流
 
