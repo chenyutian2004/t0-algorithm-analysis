@@ -138,6 +138,9 @@ python main.py account --account-id <ACCOUNT_ID>
 `all` 依次执行 `import → market → prepare → algo`。账户分析需要明确指定
 `account_id`，不会被 `all` 强制执行。
 
+项目成员的分支、提交、同步、Pull Request 和冲突处理约定见
+[`Git协作流程.md`](Git协作流程.md)。
+
 ---
 
 ## 市场数据来源
